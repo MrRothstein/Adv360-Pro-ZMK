@@ -29,7 +29,7 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
 
-            require-prior-idle-ms = <50>;
+            require-prior-idle-ms = <100>;
         };
 
         shm: shift_homerow_mods {

@@ -46,12 +46,10 @@
             compatible = "zmk,behavior-hold-tap";
             label = "CNTRL_HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <175>;
-            quick_tap_ms = <175>;
+            tapping-term-ms = <150>;
+            quick_tap_ms = <150>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
-
-            require-prior-idle-ms = <75>;
         };
 
         ghm: gui_homerow_mods {
